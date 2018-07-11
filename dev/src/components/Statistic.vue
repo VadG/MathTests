@@ -5,7 +5,7 @@
                 <transition name="flip" mode="out-in">
                     <div v-if="state!=='changeUserName'" :key="1">
                         <h4 class="alert-heading">Your statistic</h4>
-                        <p>Levels complete: <strong>{{gameStatistic.currentLvl+1}}/{{allLvls}}</strong></p>
+                        <p>Current level: <strong>{{gameStatistic.currentLvl+1}}/{{allLvls}}</strong></p>
                         <p>Total answers: <strong>{{gameStatistic.questionsCount}}</strong></p>
                         <p>Correct answers: <strong>{{gameStatistic.questionsCount- gameStatistic.wrongAnswers}}</strong></p>
                         <p>Wrong Answers: <strong>{{gameStatistic.wrongAnswers}}</strong></p>
